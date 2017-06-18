@@ -16,6 +16,8 @@ Flaznov
 
 Project to generate a dynamic flask application.
 
+**Note:** The project is assuming that you have installed pip and virtualenv on your machine , so please i you dont have them install them before you use it , in later versions i'll make a function that installs them if they not exists .
+
 Quick Start
 -----------
 
