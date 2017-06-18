@@ -65,3 +65,9 @@ Step 5: run the application:
 	 * Restarting with inotify reloader
 	 * Debugger is active!
 	 * Debugger PIN: 106-265-028
+
+
+Video on Youtube:
+-----------
+
+I've also created a video on youtube, check it out [Flaznov - A project to generate a dynamic flask application.](https://youtu.be/OWX-C7giNJo).
