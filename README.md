@@ -21,7 +21,7 @@ Project to generate a dynamic Flask application.
 Quick Start
 -----------
 
-- Instructions please read instructions before you generate your application
+`Instructions please read instructions before you generate your application`
 
 - First of all, take a look at config
 
