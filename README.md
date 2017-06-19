@@ -36,8 +36,11 @@ Quick Start
 - The project using Sqlite3 as back-end database, also ive included another postgresql URI, so if you want to use it just uncomment these lines in config.py and create your database if not exist
 
 	`DB_USERNAME = ''
+	
 	DB_PASSWORD = ''
+	
 	DB_DATABASE = ''
+	
 	SQLALCHEMY_DATABASE_URI = 'postgresql://%s:%s@localhost:5432/%s'%(DB_USERNAME, DB_PASSWORD, DB_DATABASE)`
 
 
