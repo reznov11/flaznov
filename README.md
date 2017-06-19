@@ -25,15 +25,21 @@ Quick Start
 
 - First of all, take a look at config
 
-- If you want to use another packages with your app, you can add them to [REQUIREMENTS] in config and the project will generate them inside requirements.txt
+- If you want to use another packages with your app, you can add them to [REQUIREMENTS] in config and the project will generate them inside requirements.txt later .
 
-- If you want to add another controllers to your application, add them to [CONTROLLERS] in config
+- If you want to add another controllers to your application, add them to [CONTROLLERS] in config .
 
-- This project will generate an application with two routes and it will register them to blueprint by default, so if you added another controllers, please, dont forget to register there routes to blueprint
+- This project will generate an application with two routes and it will register them to blueprint by default, so if you added another controllers, please, don't forget to register there routes to blueprint .
 
 - In snippets you can find the structure of your models and __init__.py, so feel free to change them as you like
 
-- The project using Sqlite3 as back-end database, also ive included another postgresql URI for database, so if you want to use it just uncomment the lines in config.py and create your database if not exist
+- The project using Sqlite3 as back-end database, also ive included another postgresql URI, so if you want to use it just uncomment these lines in config.py and create your database if not exist
+
+	# DB_USERNAME = ''
+	# DB_PASSWORD = ''
+	# DB_DATABASE = ''
+	# SQLALCHEMY_DATABASE_URI = 'postgresql://%s:%s@localhost:5432/%s'%(DB_USERNAME, DB_PASSWORD, DB_DATABASE)
+
 
 How to use
 -----------
