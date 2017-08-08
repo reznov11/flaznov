@@ -8,6 +8,7 @@ class Config(object):
 
     # Databse engine like, Postgres, Mysql
     # Default is sqlite3
+    # SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:[PASSWORD]@localhost:5432/[DATABASE]'
     DB_PATH='sqlite:////tmp/test.db'
 
     # Home Page
