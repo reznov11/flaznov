@@ -4,7 +4,7 @@ script_dir = os.path.dirname(os.path.abspath('flazov'))
 
 class Config(object):
     # Your project name
-    APP_NAME="myapp"
+    APP_NAME="[APP NAME]"
 
     # Databse engine like, Postgres, Mysql
     # Default is sqlite3
